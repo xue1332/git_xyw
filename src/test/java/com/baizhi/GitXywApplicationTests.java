@@ -7,9 +7,14 @@ import org.springframework.boot.test.context.SpringBootTest;
 class GitXywApplicationTests {
 
     @Test
-    void contextLoads() {
+    static void contextLoads() {
         int aa=10;
         int bb=20;
+        System.out.println(aa+bb);
+    }
+
+    public static void main(String[] args) {
+        contextLoads();
     }
 
 }
