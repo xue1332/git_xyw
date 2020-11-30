@@ -8,6 +8,8 @@ class GitXywApplicationTests {
 
     @Test
     void contextLoads() {
+        int aa=10;
+        int bb=20;
     }
 
 }
